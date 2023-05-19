@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    font-size: 20px;
+    font-family: Arial;
+}
+header{
+    background-color: #eee;
+    padding: 30px;
+    text-align: center;
+}
+nav{
+    overflow: hidden;
+    background-color: #007A33;
+    position: sticky;
+    top: 0;
+}
+
+nav a{
+    float: left;
+    color: #eee;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover{
+    background-color: #ddd;
+    color: #000;
+}
+
+nav a.ativo{
+    background-color: #000000;
+    color: #ddd;
+}
+.principal{
+    padding: 16px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.FixoNoTopo{
+    position: fixed;
+    top:0px;
+    width: 100%;
+}
+
+.FixoNoTopo + .principal{
+    padding-top: 60px;
+}
+.tipo1{
+    text-align: center;
+    padding: 20px;
+}
+.rodape{
+    background-color: #007A33;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+.art_rod{
+    border: 1px solid #007A33;
+    width: 33.33%;
+    margin: 10px;
+}
